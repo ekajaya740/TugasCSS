@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tugas 3 CSS</title>
+        <style> 
+            @import url('https://fonts.googleapis.com/css?family=Special+Elite');
+            .kelas-dasar{
+                font-family: 'Special Elite',cursive;
+                background-color: #002366;
+                color: white; 
+                margin: 20px;
+            }
+            .kelas-ukuran-font{
+                font-size: 70px;
+            }
+            .kelas-just{
+                text-align: justify;
+                font-size: 18px;
+                border-style: solid;
+                border-width: 5px;
+                padding-top: 10px;
+                padding-left: 50px;
+                padding-right: 50px;
+                padding-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body class="kelas-dasar">
+        <div class="kelas-dasar">
+            <center>
+                <h1 class="kelas-ukuran-font">Pentagram</h1>
+                <img src="data:image/png;base64,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" alt="Syaiton" height="40%" width="40%">
+            </center>
+        </div>
+        <br>
+        <div class="kelas-just">
+            <p> Pentagram adalah sebuah lambang berbentuk bintang berujung lancip lima yang digambar dengan lima garis lurus.
+                Kata pentagram sendiri berasal dari bahasa Yunani πεντάγραμμον (pentagrammon), bentuk kata kerja dari πεντάγραμμος (pentagrammos) atau πεντέγραμμος (pentegrammos), sebuah kata yang mempunyai makna "bergaris lima" atau "lima garis".
+            </p>
+            <p>
+                Nama tersebut menunjukkan bahwa pentagram bukanlah hanya sebuah bintang berujung lancip lima: lambang ini mesti terdiri dari lima garis, sehingga pentagram harus menunjukkan bagian dalamnya tersebut. 
+            </p>
+            <p>
+                Planet Venus dan pemujaan dewi Venus telah dikaitkan dengan pentagram sejak zaman kuno. Jika dilihat dari Bumi dengan latar belakang rangkaian bintang (Zodiac), Venus membentuk sebuah bintang berujung lancip lima mengelilingi Matahari setiap delapan tahun sekali, dan kembali tepat ke letak awalnya setelah siklus sepanjang empat puluh tahun. 
+            </p>
+            <p>
+                Pentagram digunakan secara simbolis pada masa Yunani kuno dan Babilonia. Pentagram dihubungkan dengan dunia sihir, dan banyak orang yang mempunyai kepercayaan paganisme mengenakan kalung berbentuk pentagram. Agama Kristen pernah menggunakan pentagram dengan umum untuk melambangkan lima luka Yesus, namun umat Kristen saat ini mengaitkan bentuk tersebut dengan Setan. Meskipun begitu, kebanyakan orang yang menggunakan bentuk ini bukanlah pemercaya Setan. 
+            </p>
+            <p>
+                Pentagram yang sempurna paling mudah digambar dengan menggambar sebuah pentagon, menghubungkan sudut-sudutnya dengan garis dan menghapus pentagon yang terlebih dahulu digambar (Hal ini juga menunjukkan bahwa pentagram adalah poligon bintang.
+            </p>
+        </div>
+        <p>Sumber: <a href="https://id.wikipedia.org/wiki/Pentagram" style="color: white">Pentagram</a> </p>
+        <h5 style="color: #002366">Website togel onlen tanpa hadiah: <a href="https://www.random.org/" style="color:  #002366">Togel</a></h5>
+        <h5 style="color:  #002366"><a href="https://www.google.com/search?q=tapi+boong&safe=strict&client=firefox-b-d&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjZ98OZwrrhAhWlmOYKHSLDBU8Q_AUIDigB&biw=1696&bih=829" style="color:  #002366">Ikan</a></h5>
+    </body>
+</html>
