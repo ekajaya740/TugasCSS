@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tugas 4 CSS</title>
+        <style> 
+            @import url('https://fonts.googleapis.com/css?family=Montserrat');
+            body{
+                font-family: 'Montserrat', sans-serif;
+                background-color: black;
+                color: white; 
+                margin: 25px;
+            }
+            ul{
+                list-style-type: square;
+            }
+            .title{
+                border-style: solid;
+                border-color: white;
+                border-width: 0px 0px 5px 0px;
+
+            }
+            .masker{
+                border: 3px solid;
+                border-radius: 3px;
+                padding-left: 10px; 
+                background-color: #404040;
+            }
+            a:link, a:visited{
+                background-color: white;
+                color: black;
+                padding: 1px 30px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;    
+            }
+            a:hover, a:active{
+                background-color: black;
+                color: white;
+                cursor: help;
+            }
+        </style>
+    </head>
+    <body>
+        <center class="title">
+            <h1>Permainan Kerajaan</h1>
+            <h4>Time Limit: Selambat lambatnya program tak boleh selambat dianya peka</h4>
+            <h4>Memory Limit: Yang penting tak memenuhi hati yang sakit ini</h4>
+        </center>
+        <h3>Deskripsi</h3>
+        <p>
+            Pada suatu hari yang cerah ada seorang Pangeran yang sedang duduk santai dibawah pohon sambil memikirkan doinya. 
+            Ia memikirkan doinya sebanyak dia bernyanyi lagu "doi doi doi dialah yang ada dihatiku." 
+            <br>
+            Namun setiap 5 kali dia memikirkan doinya Sang Susah Kaya "Milosso" yang mengganggunya. 
+            Agar tidak diganggu maka ia harus bermain sebuah permainan yaitu permainan kerajaan. 
+            <br>
+            Aturan dari permainan ini adalah Pangeran akan diberi n jumlah kartu yang setiap An kartunya memiliki sebuah nilai dari 1 sampai 100. 
+            Pangeran ketika sudah memikirkan doinya sebanyak x kali maka ia harus memikirkan Milosso sebanyak y kali tergantung pada nilai kartu yang dipegang Pangeran. 
+            Jika pangeran memegang 2 kartu bernilai 3 maka ia hanya bisa memikirkan doinya 2 kali dan Milosso 2 kali.
+            Lalu saat permainan selesai Pangeran harus memberitahu sebanyak x kali dia memikirkan doinya dan sebanyak y kali dia memikirkan sang Milosso. 
+            Maka saat itu permainan selesai dan dia terbebas dari Sang Milosso. 
+            Pangeran tampan ini membutuhkan bantuan kalian untuk mengetahui berapa kali dia menghitung. Bantulah Pangeran.
+        </p>
+        <h3>Format Masukkan</h3>
+        <p>
+            Baris pertama berisi nilai n. Lalu baris berikutnya berisi An nilai kartu.
+        </p>
+        <h3>Format Keluaran</h3>
+        <p>
+            Berisi nilai x dan y hasil dari masukkan.
+        </p>
+        <h3>Contoh Masukkan</h3>
+            <div class="masker">
+                <p>
+                    5
+                    <br>
+                    10 20 30 30 50
+                </p>
+            </div>
+        <h3>Contoh Keluaran</h3>
+            <div class="masker">
+                <p>
+                    46 5
+                </p>
+            </div>
+        <h3>Batasan</h3>
+            <ul>
+                <li>1<=n<=100</li>
+            </ul>
+        <h3>Submit Solution</h3>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfS-mp9utFoWvhiwQ2Jsl6c_1jr0s7Z-h3UWq5mRjQ19vztlA/viewform?usp=sf_link"><p>Submit</p></a>
+    </body>
+</html>
